@@ -3,5 +3,11 @@
         "activityBar.background": "#13350B",
         "titleBar.activeBackground": "#1B4A0F",
         "titleBar.activeForeground": "#F6FDF4"
-    }
+    },
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/28ef92ca-48a8-41b9-8aa1-5a28df958a40/resourceGroups/mssa-rc/providers/Microsoft.Web/sites/mssa",
+    "appService.deploySubpath": "."
 }
